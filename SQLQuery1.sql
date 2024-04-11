@@ -8,9 +8,6 @@ CREATE TABLE Books (
     StockQuantity INT NOT NULL DEFAULT 0
 );
 
-select * from books;
-DELETE FROM Books;
-
 INSERT INTO Books (Title, Author, Genre, Rating, Price, StockQuantity)
 VALUES 
 ('The Catcher in the Rye', 'J.D. Salinger', 'Literary Fiction', 4, 20.00, 50),
@@ -33,3 +30,6 @@ VALUES
 ('The Help', 'Kathryn Stockett', 'Historical Fiction', 4, 32.00, 35),
 ('The Martian', 'Andy Weir', 'Science Fiction', 4, 33.00, 50),
 ('Crazy Rich Asians', 'Kevin Kwan', 'Contemporary', 5, 34.00, 30);
+
+select * from books;
+DELETE FROM Books;
