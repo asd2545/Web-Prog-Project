@@ -57,7 +57,6 @@ INSERT INTO Books (Title, Author, Genre, Rating, Price, StockQuantity) VALUES
 ('The Color Purple', 'Alice Walker', 'Drama', 4, 24.00, 35),
 ('The Secret Garden', 'Frances Hodgson Burnett', 'Children''s', 5, 18.00, 30),
 ('Fahrenheit 451', 'Ray Bradbury', 'Dystopian', 4, 20.00, 40),
-('The Adventures of Tom Sawyer', 'Mark Twain', 'Adventure', 5, 16.00, 45);
+('The Adventures of Tom Sawyer', 'Mark Twain', 'Adventure', 5, 16.00, 45),
 ('The Lord of the Rings', 'J.R.R. Tolkien', 'Fantasy', 5, 19.00, 45),
-('Animal Farm', 'George Orwell', 'Allegory', 4, 17.00, 35),
-('The Da Vinci Code', 'Dan Brown', 'Mystery', 4, 21.00, 50);
+('Animal Farm', 'George Orwell', 'Allegory', 4, 17.00, 35);
